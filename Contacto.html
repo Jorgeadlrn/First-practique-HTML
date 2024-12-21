@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 5</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <table>
+                <tr>
+                    <img src="C:\Users\34681\OneDrive\Documentos\Jorge Andres\LENGUAJE DE MARCAS 1 (DAW)\Practica 5\Imagenes\DALL·E 2024-10-29 10.42.49 - A modern logo for 'Phantom Company' featuring bold, geometric shapes in red, white, and black. The logo includes a.jpg" width="10%">
+            <td><a href="Inicio.html">Inicio</a></td>
+            <td><a href="Contenido.html">Contenido</a></td>
+            <td><a href="Sobre_nosotros.html">Sobre nosotros</a></td>
+            <td><a href="Proyectos.html">Proyectos realizados</a></td>
+            <td><a href="Donde.html">Donde estamos</a></td>
+            <td>Contacto</td>
+        </tr>
+        </table>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <form action="/ruta-de-envio" method="post"></form>
+        <table border="1">
+            <tr>
+        <td><label for="nombre">Nombre:</label></td>
+        <td><input type="text" id="nombre" name="nombre" required></td>
+</tr>
+<tr>
+        <td><label for="Apellido">Apellido:</label></td>
+        <td><input type="text" id="apellido" name="apellido" required></td>
+</tr>
+<tr>
+        <td><label for="Correo">Correo Electronico:</label></td>
+        <td><input type="text" id="Correo" name="Correo" required></td>
+</tr>
+        <tr>
+           <td><label>Sexo:</label></td>
+           <td>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="otro" name="sexo" value="otro">
+        <label for="otro">Otro</label>
+        <input type="text" id="otro" name="otro" placeholder="Especifique otro género">
+</td>
+    </tr>
+<tr>
+        <td><label for="dni">DNI:</label></td>
+        <td><input type="text" id="dni" name="dni"></td>
+        </tr>
+    <tr>
+        <td><label for="Direccion">Direccion:</label></td>
+    </tr>    
+    </table>
+    <table border="1">
+        <tr>
+<td><label for="tematica">Tematica:</label>
+<select id="tematica" name="tematica" required>
+    <option value="halloween">Halloween</option>
+    <option value="boda">Bodas</option>
+    <option value="deporte">Deportes</option>
+    <option value="nochevieja">Nochevieja</option>
+    <option value="navideñas">Navideñas</option>
+</select>
+</td>
+</tr>
+<tr>
+        <td><label for="Comentarios">Comentarios:</label><br>
+            <textarea id="Comentarios" name="Comentarios" placeholder="Deje un comentario" rows="4" cols="50"></textarea>
+            </td>
+            </tr>
+            </table>
+                <input type="checkbox" id="Politica" name="Politica" required>
+       <label for="Politica">He leído y acepto la política de privacidad:</label><br>
+        
+    <button type="submit">Enviar</button>
+    <button type="submit">Borrar</button>
+</form>
+    </main>
+    <footer>
+        <nav>
+            <table>
+                <tr>
+                    <td><a href="Aviso.html">Aviso Legal</a></td>
+                    <td><a href="Politica.html">Politica de privacidad</a></td>
+                </tr>
+                </table>
+                </nav>
+    </footer>        
+</body>
+</html>
